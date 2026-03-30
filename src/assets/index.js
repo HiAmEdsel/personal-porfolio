@@ -21,7 +21,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import hipe from "./company/HiPe-Black.png";
+import hipe from "./company/HiPE-Black.png";
 import shopify from "./company/shopify.png";
 import command from "./company/command.png";
 import tesla from "./company/tesla.png";
