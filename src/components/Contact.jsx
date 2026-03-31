@@ -74,6 +74,7 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <h4 className="text-[#94a3b8] px-2 py-1 rounded-full text-xs">This contact form is fully functional feel free to send me a message anytime.</h4>
 
         <form
           ref={formRef}
