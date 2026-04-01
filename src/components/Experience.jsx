@@ -70,7 +70,7 @@ const Experience = () => {
 
       <motion.div variants={fadeIn("", "", 0.1, 1)}>
         <div className="flex justify-center">
-          <a href="/src/assets/EDSEL_NOMBRADO_RESUME.pdf" download
+          <a href="/EDSEL_NOMBRADO_RESUME.pdf" download
             className="inline-flex items-center gap-3 px-6 py-3 
                         bg-tertiary text-white rounded-lg 
                         text-sm md:text-base font-medium shadow-md 

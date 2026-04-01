@@ -16,7 +16,7 @@ const Skillsheet = () => {
 
         <motion.div variants={fadeIn("", "", 0.1, 1)}>
             <div className="flex justify-center">
-                <a href="/src/assets/Edsel_Nombrado_Skillsheet.pdf" download
+                <a href="/Edsel_Nombrado_Skillsheet.pdf" download
                 className="inline-flex items-center gap-3 px-6 py-3 
                             bg-tertiary text-white rounded-lg 
                             text-sm md:text-base font-medium shadow-md 
@@ -35,7 +35,7 @@ const Skillsheet = () => {
                             d="M12 4v12m0 0l-4-4m4 4l4-4m-9 8h10"/>
                     </svg>
     
-                    Download Resume
+                    Download Skillsheet
                 </a>
             </div>
         </motion.div>
