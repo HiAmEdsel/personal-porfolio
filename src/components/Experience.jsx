@@ -10,7 +10,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
-import { textVariant } from "../utils/motion";
+import { fadeIn, textVariant } from "../utils/motion";
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -66,6 +66,32 @@ const Experience = () => {
         <h2 className={`${styles.sectionHeadText} text-center`}>
           Work Experience.
         </h2>
+      </motion.div>
+
+      <motion.div variants={fadeIn("", "", 0.1, 1)}>
+        <div className="flex justify-center">
+          <a href="/src/assets/EDSEL_NOMBRADO_RESUME.pdf" download
+            className="inline-flex items-center gap-3 px-6 py-3 
+                        bg-tertiary text-white rounded-lg 
+                        text-sm md:text-base font-medium shadow-md 
+                        border border-transparent
+                        hover:bg-transparent hover:border hover:border-white 
+                        transition duration-300"
+            >
+
+              {/* <!-- Icon --> */}
+              <svg xmlns="http://www.w3.org/2000/svg" 
+                  class="w-5 h-5" 
+                  fill="none" 
+                  viewBox="0 0 24 24" 
+                  stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                        d="M12 4v12m0 0l-4-4m4 4l4-4m-9 8h10"/>
+              </svg>
+
+              Download Resume
+          </a>
+        </div>
       </motion.div>
 
       <div className='mt-20 flex flex-col'>

@@ -1,7 +1,6 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -17,7 +16,6 @@ import {
   docker,
   hipe,
   command,
-  tesla,
   shopify,
   shopifyP,
   licenseP,
@@ -55,10 +53,6 @@ const services = [
     title: "Backend Developer",
     icon: backend,
   },
-  // {
-  //   title: "Content Creator",
-  //   icon: creator,
-  // },
 ];
 
 const technologies = [
@@ -131,19 +125,6 @@ const experiences = [
       "Contribute creative ideas to enhance the overall player experience.",
     ],
   },
-  // {
-  //   title: "React Native Developer",
-  //   company_name: "Tesla",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
   {
     title: "Web app Developer",
     company_name: "Shopify (MERN Stack)",
@@ -162,7 +143,7 @@ const experiences = [
     company_name: "Hipe Japan Inc.",
     icon: hipe,
     iconBg: "#E6DEDD",
-    date: "Marc 2023 - Present",
+    date: "March 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

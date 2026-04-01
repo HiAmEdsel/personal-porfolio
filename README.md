@@ -30,19 +30,11 @@
 
 ## 🚨 Tutorial
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
+This repository contains the code corresponding to an in-depth tutorial available this YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
 
 If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
 
 <a href="https://youtu.be/0fYi8SGA20k?feature=shared" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
-
-## <a name="introduction">🤖 Introduction</a>
-
-By developing this project, you will gain hands-on experience in crafting immersive web experiences, mastering 3D libraries, and implementing engaging animations. The combination of creativity and technical skills showcased in this project serves as an excellent learning opportunity for developers seeking to enhance their portfolio and captivate users with cutting-edge web design.
-
-If you're getting started and need assistance or face any bugs, join our active Discord community with over 27k+ members. It's a place where people help each other out.
-
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -130,28 +122,28 @@ Open [http://localhost:5173](http://localhost:5173) in your browser to view the 
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
-  redux,
+  xd,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
+  hipe,
+  command,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  shopifyP,
+  licenseP,
+  ekitenP,
   threejs,
+  smtp,
+  cms,
 } from "../assets";
 
 export const navLinks = [
@@ -171,20 +163,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web + App Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Frontend Developer",
     icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -210,8 +198,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Adobe Xd",
+    icon: xd,
   },
   {
     name: "Tailwind CSS",
@@ -245,50 +233,38 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Game Dev",
+    company_name: "Capstone",
+    icon: command,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "August 2021 - July 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Document technical specifications, implementation details, and knowledge sharing among team members. ",
+      "Write clean, efficient code to implement gameplay systems, including AI behavior. ",
+      "Develop algorithms and systems for simulating realistic city dynamics,",
+      "Collaborate with the design team to conceptualize and refine gameplay mechanics, features, and user interactions.",
+      "Contribute creative ideas to enhance the overall player experience.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Web app Developer",
+    company_name: "Shopify (MERN Stack)",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Dec 2025 - Jan 2026",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developing and maintaining web app applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including product owner and other developers to create high-quality products.",
+      "Implementing functional, interactive features from approved design layouts.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Software Engineer",
+    company_name: "Hipe Japan Inc.",
+    icon: hipe,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "March 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -327,16 +303,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Shopify MERN",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web app for Shopify stores,  an advanced translation app listed on the Shopify App Store, designed to translate both store content and third-party apps, creating a fully multilingual experience across the entire store",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "prisma",
         color: "green-text-gradient",
       },
       {
@@ -344,49 +320,112 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: shopifyP,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "License Scraping",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web scraping extracts licensing data from Government Data Scraping Description(MLIT) public databases for construction companies and real estate agents, using JavaScript-based detail retrieval with sequential ID iteration and error handling.",
     tags: [
       {
-        name: "react",
+        name: "FatsAPI",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "docker",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mysql",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: licenseP,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Ekiten Scraping",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web scraping extracts Ekiten shop data from public store listings by collecting information directly from store page URLs, with pagination and error checking. The extracted data - shop name, address, contact details, and other available business information.",
     tags: [
       {
-        name: "nextjs",
+        name: "FatsAPI",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "docker",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "mysql",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: ekitenP,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Sending Email API",
+    description:
+      "Developed and documented a scalable Email Sending API using Python FastAPI, enabling secure and efficient email delivery services. Designed RESTful endpoints for sending emails and validating SMTP configurations.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "docker",
+        color: "green-text-gradient",
+      },
+      {
+        name: "FatsAPI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: smtp,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "CMS(MAINTENACE)",
+    description:
+      "Responsible for maintaining and enhancing web application systems by identifying and resolving bugs and system errors to ensure stable performance. Implemented new features based on business requirements and optimized backend processes.",
+    tags: [
+      {
+        name: "CakePHP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "UML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "jQuery",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cms,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "FE: Landang Page",
+    description:
+      "Developed architecture of a landing page. Implemented responsive design principles to ensure the website layout dynamically adapts to various devices and screen sizes, providing an optimal user experience across desktop, tablet, and mobile platforms.",
+    tags: [
+      {
+        name: "PHP",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "worldPress",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Sass",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: cms,
     source_code_link: "https://github.com/",
   },
 ];
